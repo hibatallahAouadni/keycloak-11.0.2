@@ -1,6 +1,0 @@
-#FileLock
-#Mon Sep 21 12:16:40 GMT+01:00 2020
-hostName=LAMP940.sifast.infra
-id=174b0613904a8b67792a656c1982543a9903962d710
-method=file
-server=10.0.75.1\:54979
