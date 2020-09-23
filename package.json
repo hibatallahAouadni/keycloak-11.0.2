@@ -6,6 +6,7 @@
       "init-pre-commit": "cp pre-commit .git/hooks/pre-commit",
       "docker-down": "docker stop keycloak && docker rm keycloak",
       "docker-up": "docker run -p 8099:8080 --name keycloak jboss/keycloak",
+      "docker-admin-up": "docker run -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin@89 -p 8099:8080 --name keycloak jboss/keycloak",
       "docker-dev": "SET DEVELOPPER=%USERNAME%&& npm run docker-down && npm run docker-up",
       "standalone": "cd bin/ && standalone.bat"
     },
